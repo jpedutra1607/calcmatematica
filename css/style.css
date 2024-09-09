@@ -9,7 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #222;
-    font-family: Verdana,sans-serif;
+    font-family: Verdana, sans-serif;
     
 }
 
@@ -20,22 +20,55 @@
     height: 100vh;
     padding: 2rem;
     background-color: #fafafa;
+
 }
 
-#interface .cabecalho{
+#interface .cabecalho {
     display: block;
-    width: 60%;
+    width: 70%;
     margin: 0 auto 2rem auto;
+
 }
 
 #interface .cabecalho h2 {
     display: block;
     text-align: center;
     text-transform: uppercase;
+    font-size: 1.5rem;
 }
 
-#interface table{
+
+#interface table {
     margin: 0 auto;
+    padding: .5rem;
+    border-radius: 1px solid black;
+    background-color: #ddd;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .8);
+}
+
+#interface table #painel{
+   display: block;
+   padding: 5px;
+   margin-bottom: 5px;
+   background-color: #333;
+   border-radius: .25rem;
+
+}
+
+#interface table #painel #txt_operadores{
+    display: block;
+    color: #fafafa;
+    text-align: right;
+}
+
+#interface table #painel #txt_display{
+    display:block;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    color: #fafafa;
+    text-align: right;
 }
 
 #interface table button {
@@ -43,16 +76,24 @@
     width: 50px;
     height: 50px;
     font-size: 1.5rem;
-}
+    font-weight: bold;
+    border: 1px solid #000;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.3s;
 
-#interface table button#bt-acce {
+}
+#interface table button#bt-acce{
     font-size: .8rem;
     font-weight: bold;
-    color:#7e0a0a
+    background-color: #ca5609;
+    color: #ffffff;
 }
 
-#interface table #bt-plus,
+#interface table #bt-plus, 
 #interface table #bt-equal {
     height: 102px;
-
+    background-color: #ca5609;
+    color: #fafafa;
 }
+
