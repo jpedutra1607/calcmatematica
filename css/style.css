@@ -7,7 +7,7 @@
     font-size: 12pt;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box 0;
     color: #222;
     font-family: Verdana, sans-serif;
     
@@ -64,6 +64,7 @@
 #interface table #painel #txt_display{
     display:block;
     width: 100%;
+    font-size: 19px;
     background-color: transparent;
     border: 0;
     outline: none;
@@ -76,11 +77,7 @@
     width: 50px;
     height: 50px;
     font-size: 1.5rem;
-    font-weight: bold;
-    border: 1px solid #000;
-    background-color: #e0e0e0;
-    cursor: pointer;
-    transition: background-color 0.3s;
+   
 
 }
 #interface table button#bt-acce{
