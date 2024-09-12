@@ -7,7 +7,7 @@
     font-size: 12pt;
     margin: 0;
     padding: 0;
-    box-sizing: border-box 0;
+    box-sizing: border-box;
     color: #222;
     font-family: Verdana, sans-serif;
     
@@ -77,20 +77,17 @@
     width: 50px;
     height: 50px;
     font-size: 1.5rem;
-   
+    
+    
 
 }
 #interface table button#bt-acce{
     font-size: .8rem;
-    font-weight: bold;
-    background-color: #ca5609;
-    color: #ffffff;
+    color: #000000;
 }
 
 #interface table #bt-plus, 
 #interface table #bt-equal {
     height: 102px;
-    background-color: #ca5609;
     color: #fafafa;
 }
-
